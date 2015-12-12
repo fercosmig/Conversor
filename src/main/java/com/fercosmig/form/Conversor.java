@@ -21,7 +21,6 @@ import javax.swing.border.LineBorder;
 
 import com.fercosmig.util.Conversao;
 import com.fercosmig.util.Validacao;
-import javax.swing.JMenu;
 
 public class Conversor extends JFrame {
 
@@ -174,6 +173,16 @@ public class Conversor extends JFrame {
 		});
 		btnFechar.setBounds(521, 35, 117, 25);
 		panelBotoes.add(btnFechar);
+		
+		JButton btnAbout = new JButton("About");
+		btnAbout.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				About about = new About();
+				about.setVisible(true);
+			}
+		});
+		btnAbout.setBounds(398, 35, 117, 25);
+		panelBotoes.add(btnAbout);
 
 	}
 }
