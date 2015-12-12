@@ -181,7 +181,7 @@ public class Conversor extends JFrame {
 				about.setVisible(true);
 			}
 		});
-		btnAbout.setBounds(398, 35, 117, 25);
+		btnAbout.setBounds(393, 35, 117, 25);
 		panelBotoes.add(btnAbout);
 
 	}

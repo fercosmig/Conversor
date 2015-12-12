@@ -42,25 +42,29 @@ public class About extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JLabel lbl1 = new JLabel("Developed by .:: Fer Cos Mig ::. - fercosmig@gmail.com");
-		lbl1.setBounds(12, 51, 426, 15);
+		JLabel lbl1 = new JLabel("Version 1.0.0");
+		lbl1.setBounds(12, 60, 426, 15);
 		contentPane.add(lbl1);
 		
-		JLabel lbl2 = new JLabel("27 NOV 2015");
-		lbl2.setBounds(12, 78, 426, 15);
+		JLabel lbl2 = new JLabel("Developed by .:: Fer Cos Mig ::. - fercosmig@gmail.com");
+		lbl2.setBounds(12, 83, 426, 15);
 		contentPane.add(lbl2);
 		
-		JLabel lbl3 = new JLabel("IDE: Eclipse Mars");
-		lbl3.setBounds(12, 105, 426, 15);
+		JLabel lbl3 = new JLabel("27 NOV 2015");
+		lbl3.setBounds(12, 110, 426, 15);
 		contentPane.add(lbl3);
 		
-		JLabel lbl4 = new JLabel("Java version: 8u66");
-		lbl4.setBounds(12, 132, 426, 15);
+		JLabel lbl4 = new JLabel("IDE: Eclipse Mars");
+		lbl4.setBounds(12, 137, 426, 15);
 		contentPane.add(lbl4);
 		
-		JLabel lbl5 = new JLabel("OS: Ubuntu 14.04.3 LTS");
-		lbl5.setBounds(12, 159, 426, 15);
+		JLabel lbl5 = new JLabel("Java version: 8u66");
+		lbl5.setBounds(12, 164, 426, 15);
 		contentPane.add(lbl5);
+		
+		JLabel lbl6 = new JLabel("OS: Ubuntu 14.04.3 LTS");
+		lbl6.setBounds(12, 191, 426, 15);
+		contentPane.add(lbl6);
 		
 		JButton btnFechar = new JButton("Close");
 		btnFechar.addActionListener(new ActionListener() {
